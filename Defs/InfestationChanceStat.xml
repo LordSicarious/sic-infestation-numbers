@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RoomStatDef>
+    <defName>InfestationChance</defName>
+    <label>infestatation %</label>
+    <workerClass>InfestationNumbers.RoomStatWorker_InfestationChance</workerClass>
+    <updatePriority>1</updatePriority>
+    <roomlessScore>0</roomlessScore>
+    <scoreStages>
+      <li>
+        <label>Zero</label>
+      </li>
+      <li>
+        <minScore>1</minScore>
+        <label>Low</label>
+      </li>
+      <li>
+        <minScore>5</minScore>
+        <label>Moderate</label>
+      </li>
+      <li>
+        <minScore>20</minScore>
+        <label>High</label>
+      </li>
+      <li>
+        <minScore>50</minScore>
+        <label>Extreme</label>
+      </li>
+    </scoreStages>
+  </RoomStatDef>
+</Defs>
